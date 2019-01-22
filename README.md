@@ -5,7 +5,9 @@ You can use this plugin to send mail when there is an event occurs on an issue.
 It checks for the status ID of the issue. You can change it as you wish.
 
 //http://localhost:8080/rest/api/2/status
+
 //6 is mean "closed"
+
 issue.getStatusId().equals("6")
 
 Go to your Jira: http://localhost:8080/rest/api/2/field
